@@ -58,7 +58,7 @@
             android:summary="@string/button_backlight_on_touch_only_summary"
             android:defaultValue="false" />
 
-        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        <com.derpcaf.derpzone.preferences.SystemSettingSwitchPreference
             android:key="anbi_enabled_option"
             android:title="@string/anbi_title"
             android:summary="@string/anbi_summary"
@@ -110,12 +110,6 @@
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.derpcaf.derpzone.preferences.ActionPreference>
-
-        <com.derpcaf.derpzone.preferences.SystemSettingSwitchPreference
-            android:key="allow_incall_home"
-            android:title="@string/allow_incall_home_title"
-            android:summary="@string/allow_incall_home_summary"
-            android:defaultValue="true" />
 
     </PreferenceCategory>
 
